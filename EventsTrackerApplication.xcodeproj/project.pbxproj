@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71FD2831A7F3A9C004DA0F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2821A7F3A9C004DA0F9 /* main.m */; };
+		D71FD2861A7F3A9D004DA0F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2851A7F3A9D004DA0F9 /* AppDelegate.m */; };
+		D71FD2891A7F3A9E004DA0F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2881A7F3A9E004DA0F9 /* ViewController.m */; };
+		D71FD28C1A7F3A9F004DA0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71FD28A1A7F3A9F004DA0F9 /* Main.storyboard */; };
+		D71FD28E1A7F3AA0004DA0F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71FD28D1A7F3AA0004DA0F9 /* Images.xcassets */; };
+		D71FD2911A7F3AA1004DA0F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71FD28F1A7F3AA1004DA0F9 /* LaunchScreen.xib */; };
+		D71FD29D1A7F3AA2004DA0F9 /* EventsTrackerApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD29C1A7F3AA2004DA0F9 /* EventsTrackerApplicationTests.m */; };
+		D71FD2A81A7F4815004DA0F9 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2A71A7F4815004DA0F9 /* EventListViewController.m */; };
+		D71FD2AC1A7F589A004DA0F9 /* grid_32.png in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2AA1A7F589A004DA0F9 /* grid_32.png */; };
+		D71FD2AD1A7F589A004DA0F9 /* grid_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2AB1A7F589A004DA0F9 /* grid_32@2x.png */; };
+		D71FD2B61A7F5AF7004DA0F9 /* EventListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2B41A7F5AF7004DA0F9 /* EventListTableViewCell.m */; };
+		D71FD2B71A7F5AF7004DA0F9 /* EventListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2B51A7F5AF7004DA0F9 /* EventListTableViewCell.xib */; };
+		D71FD2BB1A7F5B0A004DA0F9 /* EventListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2B91A7F5B0A004DA0F9 /* EventListCollectionViewCell.m */; };
+		D71FD2BC1A7F5B0A004DA0F9 /* EventListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2BA1A7F5B0A004DA0F9 /* EventListCollectionViewCell.xib */; };
+		D71FD2C21A7F5F0B004DA0F9 /* EventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2C11A7F5F0B004DA0F9 /* EventDetailsViewController.m */; };
+		D71FD2C51A7F7007004DA0F9 /* EventDataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2C41A7F7007004DA0F9 /* EventDataStructure.m */; };
+		D71FD2CA1A7F91DE004DA0F9 /* no_image_available.png in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2C61A7F91DE004DA0F9 /* no_image_available.png */; };
+		D71FD2CB1A7F91DE004DA0F9 /* sareeExibition.png in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2C71A7F91DE004DA0F9 /* sareeExibition.png */; };
+		D71FD2CC1A7F91DE004DA0F9 /* summerWorkShop.png in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2C81A7F91DE004DA0F9 /* summerWorkShop.png */; };
+		D71FD2CD1A7F91DE004DA0F9 /* wineTastingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2C91A7F91DE004DA0F9 /* wineTastingImage.png */; };
+		D71FD2D11A7FB676004DA0F9 /* ImageViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2CF1A7FB676004DA0F9 /* ImageViewTableViewCell.m */; };
+		D71FD2D21A7FB676004DA0F9 /* ImageViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2D01A7FB676004DA0F9 /* ImageViewTableViewCell.xib */; };
+		D71FD2D61A7FBB98004DA0F9 /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71FD2D41A7FBB98004DA0F9 /* SwitchTableViewCell.m */; };
+		D71FD2D71A7FBB98004DA0F9 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71FD2D51A7FBB98004DA0F9 /* SwitchTableViewCell.xib */; };
+		D720260C1A80864B00250C60 /* MyEventsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D720260A1A80864B00250C60 /* MyEventsListViewController.m */; };
+		D720260D1A80864B00250C60 /* MyEventsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D720260B1A80864B00250C60 /* MyEventsListViewController.xib */; };
+		D72026101A80E3DA00250C60 /* list_32.png in Resources */ = {isa = PBXBuildFile; fileRef = D720260E1A80E3DA00250C60 /* list_32.png */; };
+		D72026111A80E3DA00250C60 /* list_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D720260F1A80E3DA00250C60 /* list_32@2x.png */; };
+		D720261C1A80F82100250C60 /* BarbequeFriday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D720261A1A80F82100250C60 /* BarbequeFriday.jpg */; };
+		D720261D1A80F82100250C60 /* RockAndRoll.png in Resources */ = {isa = PBXBuildFile; fileRef = D720261B1A80F82100250C60 /* RockAndRoll.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D71FD2971A7F3AA1004DA0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71FD2751A7F3A99004DA0F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71FD27C1A7F3A9A004DA0F9;
+			remoteInfo = EventsTrackerApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D71FD27D1A7F3A9A004DA0F9 /* EventsTrackerApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsTrackerApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71FD2811A7F3A9B004DA0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71FD2821A7F3A9C004DA0F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D71FD2841A7F3A9C004DA0F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D71FD2851A7F3A9D004DA0F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D71FD2871A7F3A9E004DA0F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D71FD2881A7F3A9E004DA0F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D71FD28B1A7F3A9F004DA0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D71FD28D1A7F3AA0004DA0F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D71FD2901A7F3AA1004DA0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D71FD2961A7F3AA1004DA0F9 /* EventsTrackerApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsTrackerApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71FD29B1A7F3AA1004DA0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71FD29C1A7F3AA2004DA0F9 /* EventsTrackerApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsTrackerApplicationTests.m; sourceTree = "<group>"; };
+		D71FD2A61A7F4815004DA0F9 /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		D71FD2A71A7F4815004DA0F9 /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
+		D71FD2A91A7F57B2004DA0F9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D71FD2AA1A7F589A004DA0F9 /* grid_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid_32.png; sourceTree = "<group>"; };
+		D71FD2AB1A7F589A004DA0F9 /* grid_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid_32@2x.png"; sourceTree = "<group>"; };
+		D71FD2B31A7F5AF7004DA0F9 /* EventListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewCell.h; sourceTree = "<group>"; };
+		D71FD2B41A7F5AF7004DA0F9 /* EventListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewCell.m; sourceTree = "<group>"; };
+		D71FD2B51A7F5AF7004DA0F9 /* EventListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListTableViewCell.xib; sourceTree = "<group>"; };
+		D71FD2B81A7F5B0A004DA0F9 /* EventListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListCollectionViewCell.h; sourceTree = "<group>"; };
+		D71FD2B91A7F5B0A004DA0F9 /* EventListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListCollectionViewCell.m; sourceTree = "<group>"; };
+		D71FD2BA1A7F5B0A004DA0F9 /* EventListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListCollectionViewCell.xib; sourceTree = "<group>"; };
+		D71FD2C01A7F5F0B004DA0F9 /* EventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailsViewController.h; sourceTree = "<group>"; };
+		D71FD2C11A7F5F0B004DA0F9 /* EventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailsViewController.m; sourceTree = "<group>"; };
+		D71FD2C31A7F7007004DA0F9 /* EventDataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDataStructure.h; sourceTree = "<group>"; };
+		D71FD2C41A7F7007004DA0F9 /* EventDataStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDataStructure.m; sourceTree = "<group>"; };
+		D71FD2C61A7F91DE004DA0F9 /* no_image_available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image_available.png; sourceTree = "<group>"; };
+		D71FD2C71A7F91DE004DA0F9 /* sareeExibition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sareeExibition.png; sourceTree = "<group>"; };
+		D71FD2C81A7F91DE004DA0F9 /* summerWorkShop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summerWorkShop.png; sourceTree = "<group>"; };
+		D71FD2C91A7F91DE004DA0F9 /* wineTastingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wineTastingImage.png; sourceTree = "<group>"; };
+		D71FD2CE1A7FB676004DA0F9 /* ImageViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewTableViewCell.h; sourceTree = "<group>"; };
+		D71FD2CF1A7FB676004DA0F9 /* ImageViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewTableViewCell.m; sourceTree = "<group>"; };
+		D71FD2D01A7FB676004DA0F9 /* ImageViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewTableViewCell.xib; sourceTree = "<group>"; };
+		D71FD2D31A7FBB98004DA0F9 /* SwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTableViewCell.h; sourceTree = "<group>"; };
+		D71FD2D41A7FBB98004DA0F9 /* SwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTableViewCell.m; sourceTree = "<group>"; };
+		D71FD2D51A7FBB98004DA0F9 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		D72026091A80864B00250C60 /* MyEventsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventsListViewController.h; sourceTree = "<group>"; };
+		D720260A1A80864B00250C60 /* MyEventsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventsListViewController.m; sourceTree = "<group>"; };
+		D720260B1A80864B00250C60 /* MyEventsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyEventsListViewController.xib; sourceTree = "<group>"; };
+		D720260E1A80E3DA00250C60 /* list_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_32.png; sourceTree = "<group>"; };
+		D720260F1A80E3DA00250C60 /* list_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_32@2x.png"; sourceTree = "<group>"; };
+		D720261A1A80F82100250C60 /* BarbequeFriday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BarbequeFriday.jpg; sourceTree = "<group>"; };
+		D720261B1A80F82100250C60 /* RockAndRoll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RockAndRoll.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71FD27A1A7F3A9A004DA0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71FD2931A7F3AA1004DA0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D71FD2741A7F3A99004DA0F9 = {
+			isa = PBXGroup;
+			children = (
+				D71FD27F1A7F3A9A004DA0F9 /* EventsTrackerApplication */,
+				D71FD2991A7F3AA1004DA0F9 /* EventsTrackerApplicationTests */,
+				D71FD27E1A7F3A9A004DA0F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71FD27E1A7F3A9A004DA0F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD27D1A7F3A9A004DA0F9 /* EventsTrackerApplication.app */,
+				D71FD2961A7F3AA1004DA0F9 /* EventsTrackerApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71FD27F1A7F3A9A004DA0F9 /* EventsTrackerApplication */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD2BE1A7F5B22004DA0F9 /* App Delegate */,
+				D71FD28A1A7F3A9F004DA0F9 /* Main.storyboard */,
+				D71FD2A91A7F57B2004DA0F9 /* Constants.h */,
+				D71FD2C31A7F7007004DA0F9 /* EventDataStructure.h */,
+				D71FD2C41A7F7007004DA0F9 /* EventDataStructure.m */,
+				D71FD2BF1A7F5B2B004DA0F9 /* View Controllers */,
+				D71FD2BD1A7F5B10004DA0F9 /* Custom Cells */,
+				D71FD2B21A7F5A92004DA0F9 /* Application Images */,
+				D71FD28D1A7F3AA0004DA0F9 /* Images.xcassets */,
+				D71FD28F1A7F3AA1004DA0F9 /* LaunchScreen.xib */,
+				D71FD2801A7F3A9B004DA0F9 /* Supporting Files */,
+			);
+			path = EventsTrackerApplication;
+			sourceTree = "<group>";
+		};
+		D71FD2801A7F3A9B004DA0F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD2811A7F3A9B004DA0F9 /* Info.plist */,
+				D71FD2821A7F3A9C004DA0F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D71FD2991A7F3AA1004DA0F9 /* EventsTrackerApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD29C1A7F3AA2004DA0F9 /* EventsTrackerApplicationTests.m */,
+				D71FD29A1A7F3AA1004DA0F9 /* Supporting Files */,
+			);
+			path = EventsTrackerApplicationTests;
+			sourceTree = "<group>";
+		};
+		D71FD29A1A7F3AA1004DA0F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD29B1A7F3AA1004DA0F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D71FD2B21A7F5A92004DA0F9 /* Application Images */ = {
+			isa = PBXGroup;
+			children = (
+				D720261A1A80F82100250C60 /* BarbequeFriday.jpg */,
+				D720261B1A80F82100250C60 /* RockAndRoll.png */,
+				D71FD2C61A7F91DE004DA0F9 /* no_image_available.png */,
+				D71FD2C71A7F91DE004DA0F9 /* sareeExibition.png */,
+				D71FD2C81A7F91DE004DA0F9 /* summerWorkShop.png */,
+				D71FD2C91A7F91DE004DA0F9 /* wineTastingImage.png */,
+				D71FD2AA1A7F589A004DA0F9 /* grid_32.png */,
+				D71FD2AB1A7F589A004DA0F9 /* grid_32@2x.png */,
+				D720260E1A80E3DA00250C60 /* list_32.png */,
+				D720260F1A80E3DA00250C60 /* list_32@2x.png */,
+			);
+			name = "Application Images";
+			sourceTree = "<group>";
+		};
+		D71FD2BD1A7F5B10004DA0F9 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD2B31A7F5AF7004DA0F9 /* EventListTableViewCell.h */,
+				D71FD2B41A7F5AF7004DA0F9 /* EventListTableViewCell.m */,
+				D71FD2B51A7F5AF7004DA0F9 /* EventListTableViewCell.xib */,
+				D71FD2B81A7F5B0A004DA0F9 /* EventListCollectionViewCell.h */,
+				D71FD2B91A7F5B0A004DA0F9 /* EventListCollectionViewCell.m */,
+				D71FD2BA1A7F5B0A004DA0F9 /* EventListCollectionViewCell.xib */,
+				D71FD2CE1A7FB676004DA0F9 /* ImageViewTableViewCell.h */,
+				D71FD2CF1A7FB676004DA0F9 /* ImageViewTableViewCell.m */,
+				D71FD2D01A7FB676004DA0F9 /* ImageViewTableViewCell.xib */,
+				D71FD2D31A7FBB98004DA0F9 /* SwitchTableViewCell.h */,
+				D71FD2D41A7FBB98004DA0F9 /* SwitchTableViewCell.m */,
+				D71FD2D51A7FBB98004DA0F9 /* SwitchTableViewCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		D71FD2BE1A7F5B22004DA0F9 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD2841A7F3A9C004DA0F9 /* AppDelegate.h */,
+				D71FD2851A7F3A9D004DA0F9 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		D71FD2BF1A7F5B2B004DA0F9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D71FD2871A7F3A9E004DA0F9 /* ViewController.h */,
+				D71FD2881A7F3A9E004DA0F9 /* ViewController.m */,
+				D71FD2A61A7F4815004DA0F9 /* EventListViewController.h */,
+				D71FD2A71A7F4815004DA0F9 /* EventListViewController.m */,
+				D71FD2C01A7F5F0B004DA0F9 /* EventDetailsViewController.h */,
+				D71FD2C11A7F5F0B004DA0F9 /* EventDetailsViewController.m */,
+				D72026091A80864B00250C60 /* MyEventsListViewController.h */,
+				D720260A1A80864B00250C60 /* MyEventsListViewController.m */,
+				D720260B1A80864B00250C60 /* MyEventsListViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71FD27C1A7F3A9A004DA0F9 /* EventsTrackerApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71FD2A01A7F3AA2004DA0F9 /* Build configuration list for PBXNativeTarget "EventsTrackerApplication" */;
+			buildPhases = (
+				D71FD2791A7F3A9A004DA0F9 /* Sources */,
+				D71FD27A1A7F3A9A004DA0F9 /* Frameworks */,
+				D71FD27B1A7F3A9A004DA0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventsTrackerApplication;
+			productName = EventsTrackerApplication;
+			productReference = D71FD27D1A7F3A9A004DA0F9 /* EventsTrackerApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D71FD2951A7F3AA1004DA0F9 /* EventsTrackerApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71FD2A31A7F3AA2004DA0F9 /* Build configuration list for PBXNativeTarget "EventsTrackerApplicationTests" */;
+			buildPhases = (
+				D71FD2921A7F3AA1004DA0F9 /* Sources */,
+				D71FD2931A7F3AA1004DA0F9 /* Frameworks */,
+				D71FD2941A7F3AA1004DA0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71FD2981A7F3AA1004DA0F9 /* PBXTargetDependency */,
+			);
+			name = EventsTrackerApplicationTests;
+			productName = EventsTrackerApplicationTests;
+			productReference = D71FD2961A7F3AA1004DA0F9 /* EventsTrackerApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71FD2751A7F3A99004DA0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sibam Kedia";
+				TargetAttributes = {
+					D71FD27C1A7F3A9A004DA0F9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D71FD2951A7F3AA1004DA0F9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D71FD27C1A7F3A9A004DA0F9;
+					};
+				};
+			};
+			buildConfigurationList = D71FD2781A7F3A99004DA0F9 /* Build configuration list for PBXProject "EventsTrackerApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71FD2741A7F3A99004DA0F9;
+			productRefGroup = D71FD27E1A7F3A9A004DA0F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71FD27C1A7F3A9A004DA0F9 /* EventsTrackerApplication */,
+				D71FD2951A7F3AA1004DA0F9 /* EventsTrackerApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71FD27B1A7F3A9A004DA0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71FD2CB1A7F91DE004DA0F9 /* sareeExibition.png in Resources */,
+				D71FD2AC1A7F589A004DA0F9 /* grid_32.png in Resources */,
+				D71FD2BC1A7F5B0A004DA0F9 /* EventListCollectionViewCell.xib in Resources */,
+				D71FD2CC1A7F91DE004DA0F9 /* summerWorkShop.png in Resources */,
+				D720260D1A80864B00250C60 /* MyEventsListViewController.xib in Resources */,
+				D71FD2D71A7FBB98004DA0F9 /* SwitchTableViewCell.xib in Resources */,
+				D71FD2CD1A7F91DE004DA0F9 /* wineTastingImage.png in Resources */,
+				D71FD2CA1A7F91DE004DA0F9 /* no_image_available.png in Resources */,
+				D71FD2AD1A7F589A004DA0F9 /* grid_32@2x.png in Resources */,
+				D720261D1A80F82100250C60 /* RockAndRoll.png in Resources */,
+				D720261C1A80F82100250C60 /* BarbequeFriday.jpg in Resources */,
+				D72026101A80E3DA00250C60 /* list_32.png in Resources */,
+				D71FD2B71A7F5AF7004DA0F9 /* EventListTableViewCell.xib in Resources */,
+				D72026111A80E3DA00250C60 /* list_32@2x.png in Resources */,
+				D71FD2D21A7FB676004DA0F9 /* ImageViewTableViewCell.xib in Resources */,
+				D71FD28C1A7F3A9F004DA0F9 /* Main.storyboard in Resources */,
+				D71FD2911A7F3AA1004DA0F9 /* LaunchScreen.xib in Resources */,
+				D71FD28E1A7F3AA0004DA0F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71FD2941A7F3AA1004DA0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71FD2791A7F3A9A004DA0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71FD2891A7F3A9E004DA0F9 /* ViewController.m in Sources */,
+				D71FD2BB1A7F5B0A004DA0F9 /* EventListCollectionViewCell.m in Sources */,
+				D71FD2C21A7F5F0B004DA0F9 /* EventDetailsViewController.m in Sources */,
+				D71FD2B61A7F5AF7004DA0F9 /* EventListTableViewCell.m in Sources */,
+				D71FD2C51A7F7007004DA0F9 /* EventDataStructure.m in Sources */,
+				D71FD2D61A7FBB98004DA0F9 /* SwitchTableViewCell.m in Sources */,
+				D71FD2D11A7FB676004DA0F9 /* ImageViewTableViewCell.m in Sources */,
+				D71FD2A81A7F4815004DA0F9 /* EventListViewController.m in Sources */,
+				D71FD2861A7F3A9D004DA0F9 /* AppDelegate.m in Sources */,
+				D720260C1A80864B00250C60 /* MyEventsListViewController.m in Sources */,
+				D71FD2831A7F3A9C004DA0F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71FD2921A7F3AA1004DA0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71FD29D1A7F3AA2004DA0F9 /* EventsTrackerApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D71FD2981A7F3AA1004DA0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D71FD27C1A7F3A9A004DA0F9 /* EventsTrackerApplication */;
+			targetProxy = D71FD2971A7F3AA1004DA0F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D71FD28A1A7F3A9F004DA0F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71FD28B1A7F3A9F004DA0F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D71FD28F1A7F3AA1004DA0F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71FD2901A7F3AA1004DA0F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D71FD29E1A7F3AA2004DA0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D71FD29F1A7F3AA2004DA0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D71FD2A11A7F3AA2004DA0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EventsTrackerApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D71FD2A21A7F3AA2004DA0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EventsTrackerApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D71FD2A41A7F3AA2004DA0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EventsTrackerApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventsTrackerApplication.app/EventsTrackerApplication";
+			};
+			name = Debug;
+		};
+		D71FD2A51A7F3AA2004DA0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EventsTrackerApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventsTrackerApplication.app/EventsTrackerApplication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71FD2781A7F3A99004DA0F9 /* Build configuration list for PBXProject "EventsTrackerApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71FD29E1A7F3AA2004DA0F9 /* Debug */,
+				D71FD29F1A7F3AA2004DA0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71FD2A01A7F3AA2004DA0F9 /* Build configuration list for PBXNativeTarget "EventsTrackerApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71FD2A11A7F3AA2004DA0F9 /* Debug */,
+				D71FD2A21A7F3AA2004DA0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71FD2A31A7F3AA2004DA0F9 /* Build configuration list for PBXNativeTarget "EventsTrackerApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71FD2A41A7F3AA2004DA0F9 /* Debug */,
+				D71FD2A51A7F3AA2004DA0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D71FD2751A7F3A99004DA0F9 /* Project object */;
+}
